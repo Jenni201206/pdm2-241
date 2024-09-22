@@ -88,7 +88,6 @@ class _MyFormState extends State<MyForm> {
                 onPressed: () {
                   if (_formKey.currentState?.validate() ?? false) {
                     _formKey.currentState?.save();
-                    // Aqui você pode fazer algo com os valores válidos
                     print('Formulário válido!');
                     print('Data: ${_data ?? ''}');
                     print('Email: ${_email ?? ''}');
