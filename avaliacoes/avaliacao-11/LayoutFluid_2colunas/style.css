@@ -1,0 +1,24 @@
+#header {
+    margin: 0 3%;
+    background-color: rgb(242, 237, 237);
+  }
+  
+  #main {
+    float: left;
+    width: 60%;
+    margin: 0 3%;
+    background-color: rgb(245, 245, 219);
+  }
+  
+  #extras {
+    float: left;
+    width: 25%;
+    margin: 0 3% 2% 0;
+    background-color: rgb(224, 236, 255);
+  }
+  
+  #footer {
+    clear: left;
+    margin: 0 3%;
+    background-color: rgb(242, 237, 237);
+  }
