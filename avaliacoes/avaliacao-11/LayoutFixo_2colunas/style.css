@@ -29,11 +29,11 @@ body {
 }
 
 .esquerda {
-    width: 60%; /* Largura fixa para a coluna esquerda */
+    width: 60%;
 }
 
 .direita {
-    width: 40%; /* Largura fixa para a coluna direita */
+    width: 40%;
 }
 
 .footer {
