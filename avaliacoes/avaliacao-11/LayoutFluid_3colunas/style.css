@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f2f8;
+  }
+  
+  .header {
+      margin: 30px;
+      background-color: #d6e9f5;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  
+  .coluna {
+    padding: 2%;
+    background-color: #cde8f9;
+    margin: 1%;
+    flex: 1;
+  }
+  
+  .footer {
+      margin: 30px;
+      background-color: #d6e9f5;
+  }
+  
+  @media (max-width: 768px) {
+    .coluna {
+        flex-basis: 100%;
+    } 
+  }
